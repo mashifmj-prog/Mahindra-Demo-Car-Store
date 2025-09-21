@@ -228,6 +228,36 @@ nav .whatsapp-btn:hover {
   background-color: #1da851;
 }
 
+/* Contact Section Enhancements */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.contact-item a {
+  color: #0073e6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #005bb5;
+}
+
+.contact-item .icon {
+  font-size: 1.5rem;
+}
+
 
 
 
