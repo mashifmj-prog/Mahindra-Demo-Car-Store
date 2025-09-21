@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Mahindra Car Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Mahindra Car Store</h1>
+    <nav>
+      <a href="#cars">Cars</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to My Mahindra Car Store</h2>
+    <p>Find your dream Mahindra today!</p>
+    <button onclick="document.getElementById('cars').scrollIntoView({behavior:'smooth'})">
+      Browse Cars
+    </button>
+  </section>
+
+  <section id="cars" class="products">
+    <h2>Our Cars</h2>
+
+    <div class="product-card">
+      <img src="images/car1.jpg" alt="Mahindra SUV">
+      <h3>Mahindra SUV</h3>
+      <p>Powerful, reliable, and built for adventure.</p>
+      <p class="price">$25,000</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/car2.jpg" alt="Mahindra Pickup">
+      <h3>Mahindra Pickup</h3>
+      <p>Strong performance with great utility.</p>
+      <p class="price">$30,000</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/car3.jpg" alt="Mahindra Electric">
+      <h3>Mahindra Electric</h3>
+      <p>Eco-friendly driving with modern technology.</p>
+      <p class="price">$35,000</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/car4.jpg" alt="Mahindra Luxury">
+      <h3>Mahindra Luxury</h3>
+      <p>Comfort, safety, and elegance in one package.</p>
+      <p class="price">$45,000</p>
+      <button>Buy Now</button>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      We are passionate about Mahindra vehicles and bringing the best cars 
+      to our customers at competitive prices.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@mahindracars.com</p>
+    <p>Phone: +27 123 456 789</p>
+  </section>
+
+  <footer>
+    <p>© 2025 My Mahindra Car Store | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
