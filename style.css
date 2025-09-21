@@ -199,6 +199,22 @@ nav .dealer-btn:hover {
   background-color: #cc0000;
 }
 
+/* Contact Mahindra Button */
+nav .contact-btn {
+  background-color: #0073e6; /* blue for contrast */
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  margin-left: 10px;
+}
+
+nav .contact-btn:hover {
+  background-color: #005bb5;
+}
+
+
 
 
 
