@@ -218,20 +218,22 @@ nav a:hover {
   background-color: #555; /* hover effect for all buttons */
 }
 
-/* WhatsApp Button */
-nav .whatsapp-btn {
-  background-color: #25D366; /* WhatsApp green */
+/* Unified Navigation Buttons */
+nav a {
+  display: inline-block;
   padding: 8px 15px;
+  margin-left: 10px;
   border-radius: 5px;
+  background-color: #222; /* same as header default button */
   color: #fff;
   text-decoration: none;
   transition: background 0.3s ease;
-  margin-left: 10px;
 }
 
-nav .whatsapp-btn:hover {
-  background-color: #1da851;
+nav a:hover {
+  background-color: #555; /* hover effect for all buttons */
 }
+
 
 /* Contact Section Enhancements */
 .contact-info {
@@ -262,6 +264,7 @@ nav .whatsapp-btn:hover {
 .contact-item .icon {
   font-size: 1.5rem;
 }
+
 
 
 
